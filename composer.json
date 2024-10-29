@@ -1,0 +1,22 @@
+{
+    "name": "vendor/package-name",
+    "description": "A brief description of your project",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Vendor\\Package\\": "src/"
+      }
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "grunt": "^1.3.0",
+      "grunt-contrib-uglify": "^5.0.1",
+      "grunt-contrib-cssmin": "^4.0.0"
+    },
+    "scripts": {
+      "build": "grunt build"
+    }
+}
+  
